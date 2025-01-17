@@ -1,0 +1,142 @@
+.body-section.project-page{
+    display: block;
+}
+
+.project-page-title-banner {
+    margin-top: 50px;
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 800;
+    background-color: #1F3C5C;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    padding: 40px;
+    border-radius: 8px;
+    margin-bottom: 50px;
+}
+
+.project-page-title-banner.email {
+    margin-top: 30px;
+    border: 2px solid #1F3C5C;
+    color: #1F3C5C;
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    margin-bottom: 50px;
+}
+
+.project-page-content {
+    margin-bottom: 50px;
+
+}
+
+.project-page-content h2 {
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.project-page-content h3 {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.project-page-content .ordered-list-numbers{
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.project-page-content .p-after-ol{
+    margin-left: 20px;
+}
+
+.screenshots-of-popup{
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 65px;
+    margin-bottom: 30px;
+}
+
+.screenshots-of-popup .desktop-screenshot{
+    width: 100%;
+    max-width: 700px;
+    
+}
+.screenshots-of-popup .desktop-screenshot img{
+    width: 100%;
+}
+
+.screenshots-of-popup .mobile-screenshot{
+    width: 100%;
+    max-width: 600px;
+}
+.screenshots-of-popup .mobile-screenshot img{
+    width: 100%;
+}
+
+
+.emails-container .email-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.emails-container .email-content .email-info-left .email-info-left-section{
+    width: 100%;
+    max-width: 700px;
+    margin-bottom: 30px;
+}
+
+.emails-container .email-content .email-info-right{
+    width: 100%;
+    max-width: 300px;
+}
+
+.emails-container .email-content .email-info-right .image{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.emails-container .email-content .email-info-right .image img{
+    width: 100%;
+}
+
+
+
+@media (max-width: 768px) {
+    .screenshots-of-popup{
+        gap: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    .project-page-title-banner{
+        margin-top: 100px;
+        font-size: 32px;
+        line-height: 36px;
+    }
+
+    .project-page-content h2 {
+        font-size: 24px;
+        line-height: 30px;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+    
+    .project-page-content h3 {
+        font-size: 20px;
+        line-height: 24px;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+    
+    .project-page-content .ordered-list-numbers{
+        font-size: 18px;
+        line-height: 24px;
+    }
+}
