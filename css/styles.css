@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: "Montserrat", serif;
 }
+html{
+    scroll-behavior: smooth;;
+  }
 
 a{
     color: inherit;
@@ -20,13 +23,15 @@ p{
 .body-section{
     display: flex;
     justify-content: center;
+    padding-top: 100px;
     margin-left: 150px;
     margin-right: 150px; 
-    margin-bottom: 150px;  
+    margin-bottom: 50px;  
 }
 
 /* START OF HERO SECTION */
 .body-section.hero{
+    padding-top: 0px !important;
     margin-bottom: 80px !important;
 }
 
@@ -62,6 +67,10 @@ p{
 /* END OF HERO SECTION */
 
 /* START OF BRAND WORKED ON SECTION */
+
+.body-section.brands-worked-for{
+    padding-top: 0px !important;
+}
 
 .brands-worked-for-container {
     width: 100%;
@@ -279,8 +288,10 @@ p{
 @media (max-width: 480px) {
     /* START OF HERO SECTION */
     .body-section{
-        margin-bottom: 50px !important;
+        padding-top: 0px !important;
     }
+
+    
     .introduction-text h2{
         font-size: 24px !important; 
         line-height: 30px !important;

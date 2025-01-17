@@ -15,11 +15,11 @@ ul {
 
 header {
     /* START ---- TO CREATE FIXED POSITION */
-        /* background-color: #ffffff;
+        background-color: #ffffff;
         position: fixed;
         top:0;
         left:0;
-        width: 100%; */
+        width: 100%;
     /* END ---- TO CREATE FIXED POSITION */
 
     /* START ---- TO CREATE STICKY POSITION */
