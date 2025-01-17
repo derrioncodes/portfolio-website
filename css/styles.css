@@ -20,18 +20,18 @@ p{
     margin-bottom: 20px;
 }
 
-button{
+.full-button {
     width: 100%;
     height: 60px;
     border: 1px solid black;
     background-color: black;
 }
 
-button:hover{
+.full-button:hover{
     cursor: pointer;
 }
 
-button a{
+.full-button a{
     width: 100%;
     padding-left: 10px;
     padding-right: 10px;
@@ -311,7 +311,7 @@ button a{
     
     
     
-    button a{
+    .full-button a{
         font-size: 16px;
     }
     /* END OF PROJECT SECTION */
