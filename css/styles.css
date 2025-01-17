@@ -17,14 +17,16 @@ p{
 }
 
 .body-section{
-    
-    /* height: 100vh; */
     display: flex;
     justify-content: center;
-    /* align-items: center; */
     margin-left: 150px;
     margin-right: 150px; 
     margin-bottom: 150px;  
+}
+
+/* START OF HERO SECTION */
+.body-section.hero{
+    margin-bottom: 80px !important;
 }
 
 .hero-container {
@@ -44,15 +46,10 @@ p{
 }
 
 .hero-container .introduction-image{
-    /* height: auto; */
     height: 50vh;
     width: 50%;
 }
 
-/* .hero-container .introduction-image img{
-    height: 100%;
-    width: 100%;
-} */
 
 .hero-container .introduction-image .grey-box{
     background-color: #f2f2f2;
@@ -61,6 +58,35 @@ p{
     max-width: 600px;
     margin: 0 auto;
 }
+/* END OF HERO SECTION */
+
+/* START OF BRAND WORKED ON SECTION */
+
+.brands-worked-for-container {
+    width: 100%;
+}
+
+.brands-images {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    justify-content: space-between;
+    justify-items: center;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.brands-images img{
+    width: 170px;
+    justify-self: center;
+
+}
+/* END OF BRAND WORKED ON SECTION */
+
+
+
+
 
 @media (max-width: 992px) {
     .body-section{
@@ -76,8 +102,8 @@ p{
         margin-right: 20px;
     }
 
+    /* START OF HERO SECTION */
     .hero-container {
-    
         width: 100%;
         flex-wrap: wrap;
         
@@ -90,13 +116,29 @@ p{
     }
     
     .hero-container .introduction-image{
-        /* height: auto; */
         height: 50vh;
         width: 100%;
-    }   
+    }  
+    /* END OF HERO SECTION */ 
+
+    /* START OF BRAND WORKED ON SECTION */
+
+    .brands-images {
+        gap: 30px;
+    }
+
+    .brands-images img{
+        width: 100%;
+        max-width: 130px;
+    
+    }
 }
 
 @media (max-width: 480px) {
+    /* START OF HERO SECTION */
+    .body-section.hero{
+        margin-bottom: 50px !important;
+    }
     .introduction-text h2{
         font-size: 24px !important; 
         line-height: 30px !important;
@@ -110,5 +152,18 @@ p{
     .introduction-text p{
         font-size: 16px !important; 
         line-height: 24px !important;
+    }
+    /* END OF HERO SECTION */
+
+    .brands-worked-for-container h2{
+        font-size: 28px !important; 
+        line-height: 34px !important; 
+        font-weight: 700 !important; 
+        margin-bottom: 30px !important;
+    }
+
+    .brands-images {
+        grid-template-columns: repeat(2, 1fr);
+        
     }
 }
