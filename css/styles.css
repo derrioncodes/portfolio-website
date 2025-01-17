@@ -14,6 +14,7 @@ p{
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
+    margin-bottom: 20px;
 }
 
 .body-section{
@@ -84,7 +85,40 @@ p{
 }
 /* END OF BRAND WORKED ON SECTION */
 
+/* START OF ABOUT ME SECTION */
+.about-me-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
 
+.about-me-container .about-me-image{
+    height: auto;
+    width: 50%;
+}
+
+.about-me-container .about-me-image .grey-box{
+    background-color: #f2f2f2;
+    height: auto;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.about-me-container .about-me-image .grey-box img{
+    
+    height: 100%;
+    width: 100%;
+}
+
+.about-me-container .about-me-text{
+    width: 50%;
+    max-width: 700px;
+    align-self: center;
+}
+
+/* END OF ABOUT ME SECTION */
 
 
 
@@ -132,11 +166,30 @@ p{
         max-width: 130px;
     
     }
+    /* END OF BRAND WORKED ON SECTION */
+
+    /* START OF ABOUT ME SECTION */
+
+    .about-me-container{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .about-me-container .about-me-image{
+        
+        width: 100%;
+    }
+
+    .about-me-container .about-me-text{
+        width: 100%;
+    }
+
+    /* END OF ABOUT ME SECTION */
 }
 
 @media (max-width: 480px) {
     /* START OF HERO SECTION */
-    .body-section.hero{
+    .body-section{
         margin-bottom: 50px !important;
     }
     .introduction-text h2{
@@ -155,6 +208,8 @@ p{
     }
     /* END OF HERO SECTION */
 
+    /* START OF BRAND WORKED ON SECTION */
+
     .brands-worked-for-container h2{
         font-size: 28px !important; 
         line-height: 34px !important; 
@@ -166,4 +221,13 @@ p{
         grid-template-columns: repeat(2, 1fr);
         
     }
+    /* END OF BRAND WORKED ON SECTION */
+
+    /* START OF ABOUT ME SECTION */
+    .about-me-text h2{
+        font-size: 36px !important; 
+        line-height: 36px !important;
+    }
+
+    /* END OF ABOUT ME SECTION */
 }
