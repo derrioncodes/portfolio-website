@@ -57,14 +57,14 @@
 .screenshots-of-popup{
     display: flex;
     /* justify-content: space-between; */
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     width: 100%;
-    gap: 65px;
+    gap: 50px;
     margin-bottom: 30px;
 }
 
 .screenshots-of-popup .desktop-screenshot{
-    width: 100%;
+    width: 50%;
     max-width: 700px;
     
 }
@@ -73,7 +73,7 @@
 }
 
 .screenshots-of-popup .mobile-screenshot{
-    width: 100%;
+    width: 50%;
     max-width: 600px;
 }
 .screenshots-of-popup .mobile-screenshot img{
@@ -111,11 +111,48 @@
     width: 100%;
 }
 
+/* @media (max-width: 1440px) {
+    .screenshots-of-popup .desktop-screenshot{
+        width: 50%;
+        max-width: 540px;
+        
+    }
+    
+    .screenshots-of-popup .mobile-screenshot{
+        width: 50%;
+        max-width: 480px;
+    }
+} */
 
+@media (max-width: 992px){
+
+    .screenshots-of-popup{
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+
+    .screenshots-of-popup .desktop-screenshot{
+        width: 100%;
+        
+    }
+    
+    .screenshots-of-popup .mobile-screenshot{
+        width: 100%;
+    }
+}
 
 @media (max-width: 768px) {
     .screenshots-of-popup{
-        gap: 40px;
+        flex-wrap: wrap;
+    }
+
+    .screenshots-of-popup .desktop-screenshot{
+        width: 100%;
+        
+    }
+    
+    .screenshots-of-popup .mobile-screenshot{
+        width: 100%;
     }
 
     .emails-container .email-content .email-info-left{
