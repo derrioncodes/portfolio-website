@@ -1,3 +1,8 @@
+
+.projects-nav .menu{
+    display: flex !important;
+}
+
 .body-section.project-page{
     display: block;
 }
