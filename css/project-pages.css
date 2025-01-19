@@ -40,7 +40,7 @@
     font-size: 28px;
     line-height: 36px;
     font-weight: 700;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 
 .project-page-content h3 {
@@ -113,6 +113,15 @@
 }
 
 .emails-container .email-content .email-info-right .image img{
+    width: 100%;
+}
+
+.calender-image{
+    width: 100%;
+    max-width: 1140px;
+}
+
+.calender-image img{
     width: 100%;
 }
 
