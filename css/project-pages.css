@@ -21,6 +21,10 @@
     margin-bottom: 50px;
 }
 
+.project-page-title-banner.yla-color{
+    background-color: #222 !important;
+}
+
 .project-page-title-banner.abandon-cart-page{
     background-color: #213521 !important;
 }
@@ -33,6 +37,11 @@
     padding: 30px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     margin-bottom: 50px;
+}
+
+.project-page-title-banner.email.yla-color-outline {
+    border: 2px solid #222 !important;
+    color: #222 !important;
 }
 
 .project-page-title-banner.email.abandon-cart-page-outline{
