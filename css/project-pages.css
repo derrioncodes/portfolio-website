@@ -191,6 +191,24 @@
     margin-bottom: 15px;
 }
 
+.conditional-container{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.conditional-container .conditional-yes {
+    width: 100%;
+    max-width: 400px;
+}
+
+.conditional-container .conditional-no {
+    width: 100%;
+    max-width: 400px;
+}
+
 /* @media (max-width: 1440px) {
     .screenshots-of-popup .desktop-screenshot{
         width: 50%;
@@ -252,6 +270,16 @@
     .emails-container .email-content .email-info-right{
         width: 100%;
         max-width: 400px;
+    }
+
+    .conditional-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        width: 100%;
+        margin-bottom: 50px;
     }
 }
 
