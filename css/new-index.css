@@ -1,0 +1,67 @@
+.hideOnDesktop{
+    display: none;
+}
+
+.hideOnMobile {
+    display: block;
+}
+
+.mobilehero-image{
+    width: 100%;
+}
+
+.mobilehero-image img{
+    width: 100%;
+}
+
+.new-hero-image img{
+    width: 100%;
+}
+
+.body-section.new-hero{
+    height: 100%;
+}
+
+.profile-info {
+
+    width: 100%;
+    background-color: #ffffff;
+    height: 470px;
+    padding: 20px;
+    color: #263641;
+    text-align: center;
+                
+}
+
+.profile-info .subhead{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.profile-info h1{
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+    .hideOnDesktop{
+        display: block;
+    }
+
+    .hideOnMobile {
+        display:none;
+    }
+    /* .new-hero-image.hideOn768px{
+        display: none;
+    } */
+
+    /* .new-hero-image.showOn768px{
+        display: block;
+    } */
+}
