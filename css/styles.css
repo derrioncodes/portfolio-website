@@ -342,12 +342,6 @@ p{
 
     /* START OF BRAND WORKED ON SECTION */
 
-    .brands-worked-for-container h2{
-        font-size: 28px !important; 
-        line-height: 34px !important; 
-        font-weight: 700 !important; 
-        margin-bottom: 30px !important;
-    }
 
     .brands-images {
         grid-template-columns: repeat(2, 1fr);
