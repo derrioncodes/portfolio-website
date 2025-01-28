@@ -51,7 +51,7 @@
 
 .project-page-content {
     margin-bottom: 0px;
-    padding-top: 100px;
+    padding-top: 75px;
 
 }
 
@@ -197,7 +197,7 @@
     justify-content: center;
     gap: 50px;
     width: 100%;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
 }
 
 .conditional-container .conditional-yes {
