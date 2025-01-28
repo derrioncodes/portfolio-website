@@ -50,7 +50,8 @@
 }
 
 .project-page-content {
-    margin-bottom: 50px;
+    margin-bottom: 0px;
+    padding-top: 100px;
 
 }
 
@@ -224,6 +225,11 @@
 
 @media (max-width: 992px){
 
+    .project-page-content {
+        padding-top: 75px;
+    
+    }
+
     .screenshots-of-popup{
         flex-wrap: wrap;
         gap: 40px;
@@ -299,6 +305,8 @@
 
 
 @media (max-width: 480px) {
+
+
     .project-page-title-banner{
         margin-top: 100px;
         font-size: 26px;
