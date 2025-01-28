@@ -30,6 +30,10 @@ p{
 
 .full-button:hover{
     cursor: pointer;
+    border: 1px solid #9ec4c3;
+    background-color: #9ec4c3;
+    color: #263641;
+
 }
 
 .full-button a{
@@ -43,6 +47,10 @@ p{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.full-button a:hover{
+    color: #263641;
 }
 
 .body-section{
