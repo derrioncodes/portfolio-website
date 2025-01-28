@@ -28,7 +28,8 @@ header {
         top: 0; */
     /* END ---- TO CREATE STICKY POSITION */
     
-    box-shadow: 0 0 6px 3px rgba(0, 0, 0, 0.3);
+    /* box-shadow: 0 0 6px 3px rgba(0, 0, 0, 0.3); */
+    border-bottom: 2px solid #E6C27F;
     z-index: 2;
 }
 
@@ -70,10 +71,12 @@ nav .menu {
 nav .menu li{    
     margin-top: 0;
     width: 100px;
+    color: #263641;
 }
 
 nav .menu li a{ 
     font-size: 16px;
+    font-weight: 500;
     height: 100%;
     width: 100%;
     display: flex;
@@ -123,7 +126,8 @@ nav .open-mobile-menu-btn{
     width: 100%;
     margin: 0 auto;
 
-    box-shadow: 0 0 6px 3px rgba(0, 0, 0, 0.3);
+    /* box-shadow: 0 0 6px 3px rgba(0, 0, 0, 0.3); */
+    border-bottom: 2px solid #E6C27F;
 }
 
 .mobile-nav_container .mobile-nav_header{
@@ -169,13 +173,17 @@ nav .open-mobile-menu-btn{
 .mobile-nav_menu li{
     height: 60px;
     margin-bottom: 10px;
+    border-bottom: 1px solid #263641;
 }
 
 .mobile-nav_menu li a {
     font-size: 18px;
+    color: #263641;
+    font-weight: 500;
     height: 100%;
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 
 .mobile-nav_menu li a:hover {
