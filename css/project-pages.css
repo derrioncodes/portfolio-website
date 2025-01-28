@@ -12,21 +12,21 @@
     font-size: 36px;
     line-height: 36px;
     font-weight: 800;
-    background-color: #1F3C5C;
+    background-color: #263641;
     color: #fff;
     width: 100%;
     text-align: center;
     padding: 40px;
-    border-radius: 8px;
+    /* border-radius: 8px; */
     margin-bottom: 50px;
 }
 
 .project-page-title-banner.yla-color{
-    background-color: #222 !important;
+    background-color: #263641 !important;
 }
 
 .project-page-title-banner.abandon-cart-page{
-    background-color: #213521 !important;
+    background-color: #263641 !important;
 }
 
 .project-page-title-banner.email {
@@ -45,8 +45,8 @@
 }
 
 .project-page-title-banner.email.abandon-cart-page-outline{
-    border: 2px solid #213521 !important;
-    color: #213521 !important;
+    border: 2px solid #263641 !important;
+    color: #263641 !important;
 }
 
 .project-page-content {
