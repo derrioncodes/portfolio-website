@@ -62,43 +62,6 @@ p{
     margin-bottom: 50px;  
 }
 
-/* START OF HERO SECTION */
-.body-section.hero{
-    padding-top: 0px !important;
-    margin-bottom: 80px !important;
-}
-
-.hero-container {
-    
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    
-    gap: 40px;
-    padding-top: 100px;
-}
-
-.hero-container .introduction-text{
-    width: 50%;
-    max-width: 700px;
-    align-self: center;
-}
-
-.hero-container .introduction-image{
-    height: 50vh;
-    width: 50%;
-}
-
-
-.hero-container .introduction-image .grey-box{
-    background-color: #f2f2f2;
-    height: 100%;
-    width: 100%;
-    max-width: 600px;
-    margin: 0 auto;
-}
-/* END OF HERO SECTION */
-
 /* START OF BRAND WORKED ON SECTION */
 
 .body-section.brands-worked-for{
@@ -127,8 +90,47 @@ p{
 }
 /* END OF BRAND WORKED ON SECTION */
 
+/* START OF HERO SECTION */
+/* .body-section.hero{
+    padding-top: 0px !important;
+    margin-bottom: 80px !important;
+} */
+
+/* .hero-container {
+    
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+    gap: 40px;
+    padding-top: 100px;
+}
+
+.hero-container .introduction-text{
+    width: 50%;
+    max-width: 700px;
+    align-self: center;
+}
+
+.hero-container .introduction-image{
+    height: 50vh;
+    width: 50%;
+}
+
+
+.hero-container .introduction-image .grey-box{
+    background-color: #f2f2f2;
+    height: 100%;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+} */
+/* END OF HERO SECTION */
+
+
+
 /* START OF ABOUT ME SECTION */
-.about-me-container{
+/* .about-me-container{
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -158,12 +160,12 @@ p{
     width: 50%;
     max-width: 700px;
     align-self: center;
-}
+} */
 
 /* END OF ABOUT ME SECTION */
 
 /* START OF PROJECT SECTION */
-.projects-container{
+/* .projects-container{
     width: 100%;
     text-align: center;
 }
@@ -197,7 +199,7 @@ p{
     font-size: 20px;
     line-height: 24px;
     margin-bottom: 30px;
-}
+} */
 
 /* .projects-container .projects .single-project button{
     width: 100%;
@@ -243,8 +245,22 @@ p{
         margin-right: 20px;
     }
 
+    .brands-images {
+        gap: 30px;
+    }
+
+    .brands-images img{
+        width: 100%;
+        max-width: 130px;
+    
+    }
+
+    .full-button a{
+        font-size: 16px;
+    }
+
     /* START OF HERO SECTION */
-    .hero-container {
+    /* .hero-container {
         width: 100%;
         flex-wrap: wrap;
         
@@ -259,25 +275,17 @@ p{
     .hero-container .introduction-image{
         height: 50vh;
         width: 100%;
-    }  
+    }   */
     /* END OF HERO SECTION */ 
 
     /* START OF BRAND WORKED ON SECTION */
 
-    .brands-images {
-        gap: 30px;
-    }
-
-    .brands-images img{
-        width: 100%;
-        max-width: 130px;
     
-    }
     /* END OF BRAND WORKED ON SECTION */
 
     /* START OF ABOUT ME SECTION */
 
-    .about-me-container{
+    /* .about-me-container{
         width: 100%;
         flex-wrap: wrap;
     }
@@ -289,13 +297,13 @@ p{
 
     .about-me-container .about-me-text{
         width: 100%;
-    }
+    } */
 
     /* END OF ABOUT ME SECTION */
 
     /* START OF PROJECT SECTION */
 
-    .projects-container h1 {
+    /* .projects-container h1 {
         font-size: 36px !important; 
         line-height: 38px !important; 
         margin-bottom: 30px !important;
@@ -310,7 +318,7 @@ p{
         font-size: 18px;
         line-height: 22px;
         margin-bottom: 20px;
-    }
+    } */
 
     /* .projects-container .projects .single-project a{
         font-size: 16px;
@@ -320,9 +328,7 @@ p{
     
     
     
-    .full-button a{
-        font-size: 16px;
-    }
+    
     /* END OF PROJECT SECTION */
 }
 
@@ -332,8 +338,13 @@ p{
         padding-top: 0px !important;
     }
 
+    .brands-images {
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+
     
-    .introduction-text h2{
+    /* .introduction-text h2{
         font-size: 24px !important; 
         line-height: 30px !important;
     }
@@ -346,32 +357,29 @@ p{
     .introduction-text p{
         font-size: 16px !important; 
         line-height: 24px !important;
-    }
+    } */
     /* END OF HERO SECTION */
 
     /* START OF BRAND WORKED ON SECTION */
 
 
-    .brands-images {
-        grid-template-columns: repeat(2, 1fr);
-        
-    }
+    
     /* END OF BRAND WORKED ON SECTION */
 
     /* START OF ABOUT ME SECTION */
-    .about-me-text h2{
+    /* .about-me-text h2{
         font-size: 36px !important; 
         line-height: 36px !important;
-    }
+    } */
 
     /* END OF ABOUT ME SECTION */
 
     
     /* START OF PROJECT SECTION */
-    .projects-container .projects{
+    /* .projects-container .projects{
         grid-template-columns: repeat(1, 1fr);
         gap:50px;
-    }
+    } */
 
     /* END OF PROJECT SECTION */
 }
