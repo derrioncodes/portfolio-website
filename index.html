@@ -16,6 +16,7 @@
     <!-- START OF CSS -->
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/new-index.css">
     <!-- END OF CSS -->
     <title>Malik Hall's Portfolio</title>
 </head>
@@ -25,13 +26,13 @@
             <!-- <div class="brand-logo_text"><a href="#">Brand</a></div> -->
             <div class="brand-logo_img">
                 <a href="index.html">
-                    <img src="./images/Logo.png" alt="">
+                    <img src="./images/Logo-darkblue.png" alt="">
                 </a>
             </div>
             <ul class="menu">
-                <li><a href="#brands-worked-for-section">Skills</a></li>
-                <li><a href="#about-me-section">About me</a></li>
-                <li><a href="#my-projects-section">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#about-me">About me</a></li>
+                <li><a href="#my-projects">Projects</a></li>
             </ul>
             <button class="open-mobile-menu-btn"><i class="fa-solid fa-bars"></i></button>
         </nav>        
@@ -40,117 +41,164 @@
         <div class="mobile-nav">
             <div class="mobile-nav_header">
                 <!-- <div class="brand-logo_text"><a href="#">Brand</a></div> -->
-                <div class="brand-logo_img"></div>
+                <a href="index.html" class="brand-logo_img" style="width: 100%; max-width: 100px; height: 35px;">
+                    <img style="width: 100%; height: 100%;" src="./images/Logo-darkblue.png" alt="">
+                </a>
                 <button class="close-mobile-menu-btn"><i class="fa-solid fa-xmark"></i></button>
             </div>
         </div>
         <ul class="mobile-nav_menu">
-            <li class="mobile-nav-list-item1"><a href="#brands-worked-for-section">Skills</a></li>
-            <li class="mobile-nav-list-item2"><a href="#about-me-section">About me</a></li>
-            <li class="mobile-nav-list-item3"><a href="#my-projects-section">Projects</a></li>
+            <li class="mobile-nav-list-item1"><a href="#skills">Skills</a></li>
+            <li class="mobile-nav-list-item2"><a href="#about-me">About me</a></li>
+            <li class="mobile-nav-list-item3"><a href="#my-projects">Projects</a></li>
         </ul>
     </section>
 
-    <section id="hero-section" class="body-section hero">
-        <div class="hero-container">
-            <div class="introduction-text">
-                <h2 style="font-size: 36px; line-height: 36px; font-weight: 500; margin-bottom: 10px;">Hi, I'm Malik</h2>
-                <h1 style="font-size: 60px; font-weight: 700; margin-bottom: 15px; text-shadow: 3px 3px #c2c2c2;">Email Marketing Specialist</h1>
-                <p style="font-size: 20px; line-height: 24px; font-weight: 400;">Using my knowledge of email development, strategy, and automation to craft emails
-                    customers want.</p>
-            </div>
-            <div class="introduction-image">
-                <!-- <img src="./images/Hero-image-grey.png" alt=""> -->
-                <div class="grey-box"></div>
-            </div>
+    <section class="body-section new-hero">
+        <div class="new-hero-image hideOnMobile" style="width: 100%; height: 100%;">
+            <img src="./images/Hero-Section.jpg" alt="">
         </div>
-    </section>
-
-    <section id="brands-worked-for-section" class="body-section brands-worked-for">
-        <div class="brands-worked-for-container">
-            <h2 style="text-align: center;font-size: 32px; line-height: 38px; font-weight: 700; margin-bottom: 50px;">Brand I've Worked&nbsp;On</h2>
-            <div class="brands-images">
-                <div class="img maytag-logo">
-                    <img src="./images/maytag_img_logo_1.png" alt="">
-                </div>
-                <div class="img whirlpool-logo">
-                    <img src="./images/whirlpool_logo_1.png" alt="">
-                </div>
-                <div class="img kitchenaid-logo">
-                    <img src="./images/kitchenaid-logo-v2_1.png" alt="">
-                </div>
-                <div class="img ford-logo">
-                    <img src="./images/ford_logo_image_1.png" alt="">
-                </div>
+        <div class="new-hero-container hideOnDesktop">
+            <div class="mobilehero-image">
+                <img src="./images/mobile-hero-image.jpg" alt="">
             </div>
-        </div>
-    </section>
-
-    <section id="about-me-section" class="body-section about-me">
-        <div class="about-me-container">
-            <div class="about-me-image">
-                <div class="grey-box">
-                    <img src="./images/About-me-image.png" alt="">
-                </div>
+            
+            
+            <div class="profile-info">
+                <p class="subhead">Hi, I'm Malik</p>
+                <h1>Email Marketing Specialist</h1>
+                <p>Using my knowledge of email development, strategy, and automation to craft emails customers want.</p>
             </div>
-            <div class="about-me-text">
-                <h2 style="font-size: 44px; line-height: 44px; font-weight: 700; margin-bottom: 20px;">About Me</h2>
-                <p>With two years of experience as an email developer, I've honed my skills in designing and coding emails that not only look great but also perform seamlessly across email clients.</p>
-                <p>As I grew in my role, participating in creative meetings with strategists, copywriters, and designers sparked my curiosity about the bigger picture. I began exploring email strategy and analytics, diving into courses to deepen my knowledge. I enjoy understanding the data behind emails—what resonates with customers, what drives engagement, and how to refine campaigns for even greater impact.</p>
-                <p>Outside of work, you'll find me reading, working out, or traveling with my wife. I bring the same curiosity and commitment to my work as I do to my personal passions.</p>
-            </div>
-        </div>
 
-    </section>
-
-    <section id="my-projects-section" class="body-section">
-        <div class="projects-container">
-            <h1 style="font-size: 44px; line-height: 44px; font-weight: 700; margin-bottom: 40px;">Projects</h1>
-            <div class="projects">
-                <div class="single-project">
-                    <div class="project-image">
-                        <img src="./images/yla_email3_v2-img2-1.jpg" alt="">
+            <div class="brands-worked-for-container">
+                <h2 class="gold-underline" style="width: fit-content; margin-left: auto; margin-right: auto; text-align: center;font-size: 18px; line-height: 24px; font-weight: 400; margin-bottom: 20px;">Brand I've Worked&nbsp;On</h2>
+                <div class="brands-images">
+                    <div class="img maytag-logo">
+                        <img src="./images/maytag_img_logo_1.png" alt="">
                     </div>
-                    <h4 class="title">YoungLA<br>Welcome Flow Emails</h4>
-                    <button class="full-button" type="button">
-                        <a href="welcome-flow.html" target="_blank">
-                            View Project Details
-                        </a>
-                    </button>
-                </div>
-
-                <div class="single-project">
-                    <div class="project-image">
-                        <img src="./images/drsq-prodyct-image.jpg" alt="">
+                    <div class="img whirlpool-logo">
+                        <img src="./images/whirlpool_logo_1.png" alt="">
                     </div>
-                    <h4 class="title">Dr. Squatch<br>Abandon Cart Emails</h4>
-                    <button class="full-button" type="button">
-                        <a href="abandon-cart-flow.html" target="_blank">
-                            View Project Details
-                        </a>
-                    </button>
-                </div>
-
-                <div class="single-project">
-                    <div class="project-image">
-                        <img src="./images/wilde-brands_project-image-1.jpg" alt="">
+                    <div class="img kitchenaid-logo">
+                        <img src="./images/kitchenaid-logo-v2_1.png" alt="">
                     </div>
-                    <h4 class="title">Wilde Protein Chips<br>Email Calendar</h4>
-                    <button class="full-button" type="button">
-                        <a href="email-calendar.html" target="_blank">
-                            View Project Details
-                        </a>
-                    </button>
+                    <div class="img ford-logo">
+                        <img src="./images/ford_logo_image_1.png" alt="">
+                    </div>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="body-section">
+        <div class="skills-container gold-underline">
+            <h1>Skills</h1>
+            <div class="skills-layout">
+                <div class="skill">
+                    <div class="image">
+                        <img src="./images/adobe-marketo-logo-v2-1.png" alt="">
+                    </div>
+                    <p style="text-align: center; margin-bottom: 0px; font-weight: 500;">Marketo</p>
+                </div>
+                <div class="skill">
+                    <div class="image">
+                        <img src="./images/hubspot-1.png" alt="">
+                    </div>
+                    <p style="text-align: center; margin-bottom: 0px; font-weight: 500;">Hubspot</p>
+                </div>
+                <div class="skill">
+                    <div class="image">
+                        <img src="./images/google-analytics-1.png" alt="">
+                    </div>
+                    <p style="text-align: center; margin-bottom: 0px; font-weight: 500;">Google Analytics</p>
+                </div>
+                <div class="skill">
+                    <div class="image">
+                        <img src="./images/emailonacid-1.png" alt="">
+                    </div>
+                    <p style="text-align: center; margin-bottom: 0px; font-weight: 500;">EmailOnAcid</p>
+                </div>
+                <div class="skill">
+                    <div class="image">
+                        <img src="./images/programming-1.png" alt="">
+                    </div>
+                    <p style="text-align: center; margin-bottom: 0px; font-weight: 500;">HTML/CSS/JS</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about-me" class="body-section nam-section">
+        <div class="new-about-me-container">
+            <div class="nam-image">
+                <img src="./images/nam-right-pic-1.jpg" alt="">
+            </div>
+            <div class="nam-info">
+                <h2 class="gold-underline darkblue" style="width: fit-content;">About Me</h2>
+                <p class="darkblue">With two years of experience as an email developer, I've honed my skills in designing and coding emails that not only look great but also perform seamlessly across email clients.</p>
+                <p class="darkblue">As I grew in my role, participating in creative meetings with strategists, copywriters, and designers sparked my curiosity about the bigger picture. I began exploring email strategy and analytics, diving into courses to deepen my knowledge. I enjoy understanding the data behind emails—what resonates with customers, what drives engagement, and how to refine campaigns for even greater impact.</p>
+                <p class="darkblue">Outside of work, you'll find me reading, working out, or traveling with my wife. I bring the same curiosity and commitment to my work as I do to my personal passions.</p>
 
             </div>
         </div>
-
     </section>
 
-    <footer style="width: 100%; height: 50vh; background-color: #1F3C5C;">
+    <section id="my-projects" class="body-section">
+        <div class="projects-container_v2">
+            <h1 class="darkblue">Projects</h1>
+            <div class="projects_v2">
+                <div class="single-project_v2">
+                    <div class="project-image_v2">
+                        <img src="./images/yla_email3_img2_project_v2.jpg" alt="">
+                    </div>
+                    <div class="project-info_v2 darkblue">
+                        <h3 class="gold-underline" style="width: fit-content; margin-left: auto; margin-right: auto; margin-bottom: 20px; padding-bottom: 8px;">YoungLA<br>Welcome Flow</h3>
+                        <p style="margin-bottom: 30px;">I redesigned YoungLA's Welcome Flow. I detail the process, from crafting the popup form to bringing each email to life.</p>
+                        <button class="full-button" type="button">
+                            <a href="welcome-flow.html" target="_blank">
+                                View Project Details
+                            </a>
+                        </button>
+                    </div>
+                </div>
 
+                <div class="single-project_v2">
+                    <div class="project-image_v2">
+                        <img src="./images/drsq-project-image_v2.jpg" alt="">
+                    </div>
+                    <div class="project-info_v2 darkblue">
+                        <h3 class="gold-underline" style="width: fit-content; margin-left: auto; margin-right: auto; margin-bottom: 20px; padding-bottom: 8px;">Dr. Squatch<br>Abandon Cart Flow</h3>
+                        <p style="margin-bottom: 30px;">My focus is improving Dr. Squatch's Abandon Cart Flow by outlining its objectives and my strategies for success.</p>
+                        <button class="full-button" type="button">
+                            <a href="abandon-cart-flow.html" target="_blank">
+                                View Project Details
+                            </a>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="single-project_v2">
+                    <div class="project-image_v2">
+                        <img src="./images/Wilde-display-image.jpg" alt="">
+                    </div>
+                    <div class="project-info_v2 darkblue">
+                        <h3 class="gold-underline" style="width: fit-content; margin-left: auto; margin-right: auto; margin-bottom: 20px; padding-bottom: 8px;">Wilde Protein Chips<br>Email Calendar</h3>
+                        <p style="margin-bottom: 30px;">I explain my approach to creating a monthly email calendar designed to deliver value and encourage customer purchases.</p>
+                        <button class="full-button" type="button">
+                            <a href="email-calendar.html" target="_blank">
+                                View Project Details
+                            </a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer style="background-color:#F6F6F6; text-align: center; padding: 50px; font-size: 20px; font-weight: 700; margin-top: 100px;">
+        &copy;Malik Hall
     </footer>
+    
     <script src="./js/app.js"></script>
 </body>
 </html>
