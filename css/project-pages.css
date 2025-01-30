@@ -17,7 +17,6 @@
     width: 100%;
     text-align: center;
     padding: 40px;
-    /* border-radius: 8px; */
     margin-bottom: 50px;
 }
 
@@ -80,8 +79,6 @@
 
 .screenshots-of-popup{
     display: flex;
-    /* justify-content: space-between; */
-    /* flex-wrap: wrap; */
     width: 100%;
     gap: 50px;
     margin-bottom: 30px;
@@ -145,8 +142,6 @@
 }
 
 .flowchart-container{
-    /* display: flex;
-    justify-content: center; */
     width: 100%;
 }
 
@@ -210,18 +205,6 @@
     max-width: 400px;
 }
 
-/* @media (max-width: 1440px) {
-    .screenshots-of-popup .desktop-screenshot{
-        width: 50%;
-        max-width: 540px;
-        
-    }
-    
-    .screenshots-of-popup .mobile-screenshot{
-        width: 50%;
-        max-width: 480px;
-    }
-} */
 
 @media (max-width: 992px){
 
