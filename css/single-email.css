@@ -8,7 +8,7 @@
 .subject-line_preheader-container{
     margin: 10px auto;
     width: 100%;
-    padding: 20px;
+    /* padding: 20px; */
     border-radius: 10px;
     text-align: center;
 }

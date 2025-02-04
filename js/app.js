@@ -6,6 +6,9 @@ const mobileNavListItem2 = document.querySelector('.mobile-nav-list-item2');
 const mobileNavListItem3 = document.querySelector('.mobile-nav-list-item3');
 
 
+
+
+
 openMobileBtn.addEventListener('click', () => {
  mobileContainer.classList.add('active');
 })
@@ -36,5 +39,6 @@ mobileNavListItem3.addEventListener('click', () => {
     console.log('hey');
     mobileContainer.classList.remove('active');
 })
+
 
 

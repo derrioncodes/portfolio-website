@@ -114,6 +114,12 @@
     
 }
 
+.emails-container .email-content .email-info-left.width100{
+    width: 100%;
+    max-width: 100%;
+    
+}
+
 .emails-container .email-content .email-info-left .email-info-left-section{
     margin-bottom: 30px;
 }
